@@ -8,7 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- External Custom CSS -->
-    <link rel="stylesheet" type="text/css" href="../assets/css/home.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/home.css">
 
     <title>Mastersystem</title>
   </head>
@@ -22,7 +22,7 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <img src="../assets/img/homepage_mastersystem_large.png" class="bg" alt="homepage image">
+        <img src="./assets/img/homepage_mastersystem_large.png" class="bg" alt="homepage image">
         <div class="body-text">Learn, Explore, Success
           <button type="button" class="btn btn-danger">Learn More</button>
         </div>
