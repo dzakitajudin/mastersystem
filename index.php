@@ -15,7 +15,25 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Mastersystem</a>
+        <div class="topnav-right">
+          <a class="nav-signin" href="#">SIGN IN</a>
+          <a class="nav-signup" href="#">SIGN UP</a>
+        </div>
     </nav>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- <div class="column left" style="background-color:#aaa;"> -->
+          <!-- <h2>Column 1</h2>
+          <p>Some text..</p> -->
+        <!-- </div> -->
+        <!-- <div class="column right" style=""> -->
+          <img src="../assets/img/homepage_mastersystem_large.png" class="bg" alt="homepage image">
+        <!-- </div> -->
+        <div class="body-text">Learn, Explore, Success
+          <button type="button" class="btn btn-danger">Learn More</button>
+        </div>
+      </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

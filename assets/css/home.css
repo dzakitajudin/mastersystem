@@ -1,4 +1,73 @@
+body, html {
+    height: 100%;
+    overflow-y: hidden !important;
+    overflow-x: hidden !important;
+}
+  
+.bg {
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 /* Navbar */
+.navbar {
+    position:fixed!important;
+    top:0!important;
+    left:0!important;
+    background: rgba(255,255,255,0.9)!important;
+}
+
 a.navbar-brand {
     color: #B22222!important;
+    font-size: 25px!important;
+}
+
+.topnav-right {
+    float: right!important;
+}
+
+.topnav-right a {
+    color: #333!important;
+    font-size: 15px!important;
+    text-decoration: none!important;
+}
+
+.topnav-right a:hover {
+    background-color: #DCDCDC!important;
+    color: black!important;
+    text-decoration: none!important;
+  }
+
+.nav-signup {
+    position: fixed;
+    left: 1100px;
+}
+
+.nav-signin {
+    position: fixed;
+    left: 1000px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.body-text {
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.body-text button {
+    position: absolute!important;
+    top: 50px!important;
+    right: 100px!important;
 }
