@@ -22,13 +22,7 @@
     </nav>
     <div class="container-fluid">
       <div class="row">
-        <!-- <div class="column left" style="background-color:#aaa;"> -->
-          <!-- <h2>Column 1</h2>
-          <p>Some text..</p> -->
-        <!-- </div> -->
-        <!-- <div class="column right" style=""> -->
-          <img src="../assets/img/homepage_mastersystem_large.png" class="bg" alt="homepage image">
-        <!-- </div> -->
+        <img src="../assets/img/homepage_mastersystem_large.png" class="bg" alt="homepage image">
         <div class="body-text">Learn, Explore, Success
           <button type="button" class="btn btn-danger">Learn More</button>
         </div>
