@@ -25,6 +25,7 @@ body, html {
 a.navbar-brand {
     color: #B22222!important;
     font-size: 25px!important;
+    font-weight: bold!important;
 }
 
 .topnav-right {
