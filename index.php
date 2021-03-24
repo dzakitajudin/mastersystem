@@ -14,11 +14,13 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
         <a class="navbar-brand" href="#">Mastersystem</a>
         <div class="topnav-right">
           <a class="nav-signin" href="#">SIGN IN</a>
           <a class="nav-signup" href="#">SIGN UP</a>
         </div>
+      </div>
     </nav>
     <div class="container-fluid">
       <div class="row">
