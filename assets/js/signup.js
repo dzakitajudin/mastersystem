@@ -11,10 +11,13 @@ $(function () {
 // datepicker
 $(function () {
     var bindDatePicker = function() {
+        var date = new Date();
+        date.setDate(date.getDate());
         $("#birthday").datepicker({
             autoclose:true,
             todayHighlight:true,
-            format:'dd/mm/yyyy'
+            format:'dd/mm/yyyy',
+            endDate: date
         })
     }
     
