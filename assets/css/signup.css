@@ -1,0 +1,38 @@
+.border-md {
+    border-width: 2px;
+}
+
+body {
+    min-height: 100vh;
+}
+
+a.navbar-brand {
+    color: #B22222!important;
+    font-size: 25px!important;
+    font-weight: bold!important;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+.btn-primary {
+    background-color: #B22222!important;
+    border-color: #B22222!important;
+}
+
+.btn-primary:hover {
+    background-color: #941111!important;
+}
+
+footer .copyright {
+    width: 100%!important;
+    text-align: center!important;
+    font-size: 10px!important;
+    font-weight: bold!important;
+}
