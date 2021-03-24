@@ -17,10 +17,10 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container">
-        <a class="navbar-brand" href="#">Mastersystem</a>
+        <a class="navbar-brand" href="index.php">Mastersystem</a>
         <div class="topnav-right">
-          <a class="nav-signin" href="#">SIGN IN</a>
-          <a class="nav-signup" href="#">SIGN UP</a>
+          <a class="nav-signin" href="login.php">SIGN IN</a>
+          <a class="nav-signup" href="register.php">SIGN UP</a>
         </div>
       </div>
     </nav>

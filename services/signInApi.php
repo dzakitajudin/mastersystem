@@ -10,6 +10,7 @@
     use \Firebase\JWT\JWT;
 
     // set header
+    header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json');
     $header = getallheaders();
 
@@ -82,6 +83,8 @@
 
 
             $arr_token = array(
+                'firstname' => $user['first_name'],
+                'lastname' => $user['last_name'],
                 'token' => $jwt,
                 'iat' => $issuedAt,
                 'expire' => $expirationTime
@@ -102,7 +105,7 @@
             // if doesn't exist in db
             $response = array(
                 'status' => 0,
-                'message' => "email and password doesn't match"
+                'message' => "email and password not match"
             );
 
             http_response_code(200);

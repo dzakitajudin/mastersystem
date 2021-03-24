@@ -3,6 +3,7 @@
     require "../config/dbConfig.php";
 
     // set header
+    header('Access-Control-Allow-Origin: *');
     header('Content-Type: application/json');
     $header = getallheaders();
 
@@ -117,18 +118,6 @@
             $response = array(
                 'status' => 0,
                 'message' => 'Phone Number must be unique'
-            );
-
-            http_response_code(200);
-            echo json_encode($response);
-            die();
-        }
-
-        // check enum Gender
-        if ($Gender != 'M' AND $Gender != 'F') {
-            $response = array(
-                'status' => 0,
-                'message' => 'Gender is invalid format (M / F)'
             );
 
             http_response_code(200);
