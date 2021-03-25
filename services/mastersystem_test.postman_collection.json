@@ -1,0 +1,67 @@
+{
+	"info": {
+		"_postman_id": "9ff460fe-f746-4be7-b024-303d67b6092e",
+		"name": "API Mastersystem test ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Sign In",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"Email\": \"dzakitajudin@gmail.com\",\n    \"Password\": \"1234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/mastersystem/services/signInApi.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"mastersystem",
+						"services",
+						"signInApi.php"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Sign Up",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"FirstName\": \"Dzaki\",\n    \"LastName\": \"Tajudin\",\n    \"Email\": \"dzakitajudin@gmail.com\",\n    \"PhoneNumber\": \"081317421242\",\n    \"Gender\": \"M\",\n    \"BirthDate\": \"24/11/1995\",\n    \"Password\": \"1234567890\",\n    \"ConfirmPassword\": \"1234567890\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost/mastersystem/services/signUpApi.php",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"path": [
+						"mastersystem",
+						"services",
+						"signUpApi.php"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
