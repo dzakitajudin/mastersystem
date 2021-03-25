@@ -16,6 +16,7 @@ Create Simple Website registration and login form using Javascript jQuery, HTML,
 - RESTful API
 - JSON
 - Password hash BCRYPT
+- Cookies
 
 ## Features
 - [ ] Login
